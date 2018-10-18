@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>计算器</title>
+	<script type="text/javascript">
+		function JS(){
+			var a,b,c;
+			a=parseFloat(document.form.X.value);
+			b=parseFloat(document.form.Y.value);
+			document.form.Z.value=a+b;
+		}
+	</script>
+</head>
+<body align="center">
+<form action="" method="get" name="form">
+	<input type="text" name="X" >
+	<input type="text" name="Y"><br><br><br>
+	<input type="button" name="XY" value="计算" onclick="JS()">
+	<input type="text" name="Z">
+</form>
+</body>
+</html>
